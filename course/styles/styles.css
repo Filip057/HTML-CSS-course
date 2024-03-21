@@ -1,0 +1,149 @@
+em{
+    color: red;
+    font-style: normal;
+}
+img{
+    width: 200px;
+    height: auto;
+}
+video{
+    width: 400;
+}
+ul{
+    list-style-type: none;
+}
+
+
+
+
+div.option1{
+    background-color: lightskyblue;
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+}
+.highlight{
+    font-weight: bold;
+    color: deeppink;
+}
+
+
+
+body {
+    margin: 10px;
+  }
+  
+  table, td, th {
+    /* I've set all the borders using the border property
+    and then removed the left and right border. Alternatively,
+    we could set border-top and border-bottom properties but 
+    that would result in the repetition of the color. If we
+    want to change the border color, we have to change it in
+    two places. */
+    border: 1px solid #c4dcf3;
+    border-left: 0;
+    border-right: 0;
+    border-collapse: collapse;
+  }
+
+th, td{
+    padding: 15px;
+}
+
+th {
+    background-color: #427fef;
+    color: white;
+  }
+
+tr:nth-child(odd) {
+    background-color: #eef7ff;
+  }
+
+.tfoot-table{
+    background-color: #427fef;
+    color: white;
+    text-align: left;
+}
+
+.task{
+    width: 300px;
+    height: 300px;
+    background-color: tomato;
+    box-shadow: 5px 5px lightgrey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.card{
+    width: 50%;
+    height: 50vh;
+    background-color: lightcoral;
+}
+
+.stacks{
+    border: 3px solid black;
+    position: relative;
+}
+
+.stack{
+    width: 5rem;
+    height: 5rem;
+}
+
+.stack-one{
+    background-color: red;
+}
+.stack-two{
+    background-color: green;
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    right: 2rem;
+    width: auto;
+}
+.stack-three{
+    background-color: blue;
+}
+
+.tweet{
+    border: 3px solid lightgray;
+}
+
+.tweet::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.avatar{
+    width: 5rem;
+    height: 5rem;
+    background-color: tomato;
+    float: left;
+    margin-right: 0.5rem;
+}
+
+.clear{
+    clear: left;
+}
+
+.container{
+    border: 3px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 5rem;
+    height: 5rem;
+    background: gold;
+    margin: 1rem;
+}
+
+.extra-box {
+    align-self: flex-start;
+}

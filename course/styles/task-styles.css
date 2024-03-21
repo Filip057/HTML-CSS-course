@@ -1,0 +1,70 @@
+.ibm-plex-serif-regular-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.montserrat-normal {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-bold {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+html{
+   font-size: 62.5%; 
+}
+
+
+body{
+    color: #222;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    line-height: 1.1;
+  }
+h1{
+    font-size: 5.61rem;
+}
+
+h2{
+    font-size: 4.209rem;
+}
+
+.abstract{
+    font-family: "IBM Plex Serif";
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.main-container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.image-strip {
+    width: 100%; /* Ensures the strip takes full width of its container */
+    height: 300px; /* Adjust this value based on your desired strip height */
+    overflow: hidden; /* Ensures any part of the image exceeding the strip's bounds is hidden */
+}
+
+.image-strip img {
+    width: 100%; /* Ensures the image takes full width of its container */
+    height: 100%; /* Ensures the image takes full height of its container */
+    object-fit: cover; /* Ensures the image covers the available space without being squeezed */
+    object-position: center; /* Adjusts the position of the image within the container */
+}

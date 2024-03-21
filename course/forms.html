@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+</head>
+<body>
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email">
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+    </form>
+
+    <form>
+        <input type="number">
+    </form>
+    <form>
+        <input type="text" list="countries">
+        <datalist id="countries">
+            <option>CZ</option>
+            <option>DE</option>
+            <option>POL</option>
+            <option>SK</option>
+        </datalist>
+    </form>
+    <form action="">
+        <input type="checkbox" id="frontend">
+        <label class="label-inline" for="frontend">Front End</label>
+    </form>
+    <form>
+        <div>
+            <input type="radio" name="membership" id="G">
+            <label for="G" class="label-inline">Gold</label>
+        </div>
+        <div>
+            <input type="radio" name="membership" id="S">
+            <label for="S" class="label-inline">Silver</label>
+        </div>
+    </form>
+</body>
+</html>
